@@ -1,6 +1,6 @@
 {
   "name": "@myuw-web-components/myuw-app-styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This HTML import contains custom CSS properties that are consumed by other components in the myuw-web-components space.",
   "main": "myuw-app-styles.js",
   "scripts": {
