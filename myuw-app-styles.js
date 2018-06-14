@@ -15,10 +15,6 @@ MyuwDefaultAppTheme.innerHTML = `
             --myuw-app-bar-color: #fff;
             --myuw-app-bar-font: 'Montserrat', Arial, sans-serif;
         }
-        myuw-profile {
-            --myuw-profile-font: 'Montserrat', Arial, sans-serif;
-            --myuw-profile-color: #fff;
-        }
     </style>
 `;
     
