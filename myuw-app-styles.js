@@ -2,7 +2,7 @@
 const MyuwfontsContainer = document.createElement('template');
 MyuwfontsContainer.setAttribute('style', 'display: none;');
 MyuwfontsContainer.innerHTML = `
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 `
     
