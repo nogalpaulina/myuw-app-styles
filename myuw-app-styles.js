@@ -23,7 +23,26 @@ MyuwfontsContainer.innerHTML = `
 const MyuwDefaultAppTheme = document.createElement('template');
 MyuwDefaultAppTheme.innerHTML = `
     <style>
-        myuw-app-bar {
+        :root {
+
+            /* Main MyUW Theme Variables */
+
+            --myuw-primary-bg: #c5050c;
+            --myuw-primary-color: #fff;
+
+            --myuw-accent-bg: #0479a8;
+            --myuw-accent-color: #fff;
+
+            --myuw-page-bg: #f7f7f7;
+            --myuw-page-color: #494949;
+
+            --myuw-dark: #646569;
+            --myuw-darker: #282728;
+
+            --myuw-font: 'Montserrat', Arial, sans-serif;
+
+            /* MyUW App Bar Variables */
+
             --myuw-app-bar-bg: #c5050c;
             --myuw-app-bar-color: #fff;
             --myuw-app-bar-transparent: transparent;
