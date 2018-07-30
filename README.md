@@ -7,8 +7,8 @@ This HTML import contains custom CSS properties that are consumed by other compo
 Add the app styles script to your document:
 
 ```html
-<script type="module" src="https://unpkg.com/@myuw-web-components/myuw-app-styles?module"></script>
-<script nomodule src="https://unpkg.com/@myuw-web-components/myuw-app-styles"></script>
+<script type="module" src="https://unpkg.com/@myuw-web-components/myuw-app-styles@^1?module"></script>
+<script nomodule src="https://unpkg.com/@myuw-web-components/myuw-app-styles@^1"></script>
 ```
 
 To avoid flashing unstyled text, this component also uses [FontFaceObserver](https://github.com/bramstein/fontfaceobserver) to determine when UW-Madison theme fonts are loaded and updates `<body>` with the attribute `myuw-font-loaded`
