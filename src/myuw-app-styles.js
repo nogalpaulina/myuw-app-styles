@@ -15,7 +15,7 @@ document.head.appendChild(fonts.content);
 document.head.appendChild(defaultAppTheme.content);
 
 // Set up font observer
-let myuwFontFace = new FontFaceObserver('Montserrat', {});
+let myuwFontFace = new FontFaceObserver('Roboto', {});
 
 myuwFontFace.load().then(res => {
     document.body.setAttribute('myuw-font-loaded', true);
