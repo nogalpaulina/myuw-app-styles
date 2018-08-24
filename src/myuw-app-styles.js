@@ -20,6 +20,6 @@ let myuwFontFace = new FontFaceObserver('Roboto', {});
 myuwFontFace.load().then(res => {
     document.body.setAttribute('myuw-font-loaded', true);
 }).catch(error => {
-    console.log(error);
     document.body.setAttribute('myuw-font-loaded', true);
+    throw new Error(error);
 });
