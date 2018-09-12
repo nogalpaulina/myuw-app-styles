@@ -19,9 +19,13 @@
 
   --myuw-link-color: #0479a8;
 
+  --myuw-search-border: none;
+
+  --myuw-bar-button-bg: transparent;
+  --myuw-bar-button-hover: rgba(0,0,0,0.12);
+
   /* Profile/navigation menu item color */
   --myuw-menu-color: rgba(0,0,0,0.87);
-
 }
 
 /* Duplicate :host styles for search to allow polyfills to work */
@@ -42,12 +46,12 @@ body.uw-madison-white-theme {
 
   --myuw-search-border: 1px solid rgba(0,0,0,0.5);
 
-  --myuw-bar-button-bg: #c5050c;
+  --myuw-bar-button-bg: #fb686d;
 }
 
 @media (max-width: 600px) {
-  body.uw-madison-white-theme {
-    --myuw-search-border: none;
+  body.uw-madison-white-theme myuw-search {
+    border: none;
   }
 }
 </style>
