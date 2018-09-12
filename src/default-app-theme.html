@@ -17,11 +17,29 @@
   --myuw-font: 'Roboto', Arial, sans-serif;
   --myuw-app-bar-font: 'Verlag', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
+  --myuw-link-color: #0479a8;
+
+  /* Profile/navigation menu item color */
+  --myuw-menu-color: rgba(0,0,0,0.87);
+
 }
 
 /* Duplicate :host styles for search to allow polyfills to work */
 myuw-search {
   display: flex;
   flex: auto;
+  border: var(--myuw-search-border, none);
+  border-radius: 5px;
+}
+
+/* White theme variables */
+body.uw-madison-white-theme {
+  --myuw-primary-bg: #fff;
+  --myuw-primary-color: #c5050c;
+
+  --myuw-accent-bg: #fff;
+  --myuw-accent-color: #0479a8;
+
+  --myuw-search-border: 1px solid rgba(0,0,0,0.5);
 }
 </style>
