@@ -3,6 +3,7 @@ import html from 'rollup-plugin-html';
 import minify from 'rollup-plugin-minify-es';
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
+import babel from 'rollup-plugin-babel';
 
 let fileName = 'myuw-app-styles';
 let objName = 'MyUWAppStyles';
@@ -44,7 +45,7 @@ let plugins = {
 export default [
   {
     input: `src/${fileName}.js`,
-    plugins: plugins.full,
+    plugins: plugins.full.concat([babel({exclude: 'node_modules/**'})]),
     output: {
       file: `dist/${fileName}.js`,
       name: objName,
@@ -53,7 +54,7 @@ export default [
   },
   {
     input: `src/${fileName}.js`,
-    plugins: plugins.min,
+    plugins: plugins.min.concat([babel({exclude: 'node_modules/**'})]),
     output: {
       file: `dist/${fileName}.min.js`,
       name: objName,
