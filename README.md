@@ -24,3 +24,7 @@ To use the "UW-Madison White" theme, add the "uw-madison-white-theme" class to y
     <!-- ... -->
 </body>
 ```
+
+
+Cross-browser testing provided by:<br/>
+<a href="https://www.browserstack.com/"><img width="160" src="https://myuw-web-components.github.io/img/Browserstack-logo.svg" alt="BrowserStack"/></a>
