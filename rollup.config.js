@@ -1,4 +1,3 @@
-import { rollup } from 'rollup';
 import html from 'rollup-plugin-html';
 import minify from 'rollup-plugin-minify-es';
 import resolve from 'rollup-plugin-node-resolve';
@@ -7,7 +6,6 @@ import babel from 'rollup-plugin-babel';
 
 let fileName = 'myuw-app-styles';
 let objName = 'MyUWAppStyles';
-
 
 let plugins = {
   full: [
@@ -40,7 +38,6 @@ let plugins = {
     })
   ]
 };
-
 
 export default [
   {
