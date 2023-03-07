@@ -1,5 +1,11 @@
 # myuw-app-styles versions
 
+## 1.3.1
+
+### Changed
+
+* Removed references to Verlag and Vitesse fonts and replaced with Roboto
+
 ## 1.3.0
 
 ### Added
