@@ -1,5 +1,11 @@
 # myuw-app-styles versions
 
+## 1.3.2
+
+### Added
+
+* Added campus specific themes - Parkside and Platteville
+
 ## 1.3.1
 
 ### Changed

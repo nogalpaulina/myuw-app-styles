@@ -1,57 +1,71 @@
 <style>
-:root {
-  /* Main MyUW Theme Variables */
+  :root {
+    /* Main MyUW Theme Variables */
 
-  --myuw-primary-bg: #c5050c;
-  --myuw-primary-color: #fff;
+    --myuw-primary-bg: #c5050c;
+    --myuw-primary-color: #fff;
 
-  --myuw-accent-bg: #0479a8;
-  --myuw-accent-color: #fff;
+    --myuw-accent-bg: #0479a8;
+    --myuw-accent-color: #fff;
 
-  --myuw-page-bg: #f7f7f7;
-  --myuw-page-color: #494949;
+    --myuw-page-bg: #f7f7f7;
+    --myuw-page-color: #494949;
 
-  --myuw-dark: #646569;
-  --myuw-darker: #282728;
+    --myuw-dark: #646569;
+    --myuw-darker: #282728;
 
-  --myuw-font: 'Roboto', Arial, sans-serif;
-  --myuw-app-bar-font: 'Roboto', Arial, sans-serif;
+    --myuw-font: 'Roboto', Arial, sans-serif;
+    --myuw-app-bar-font: 'Roboto', Arial, sans-serif;
 
-  --myuw-link-color: #0479a8;
+    --myuw-link-color: #0479a8;
 
-  --myuw-search-border: none;
+    --myuw-search-border: none;
 
-  --myuw-bar-button-bg: transparent;
-  --myuw-bar-button-hover: rgba(0,0,0,0.12);
+    --myuw-bar-button-bg: transparent;
+    --myuw-bar-button-hover: rgba(0,0,0,0.12);
 
-  /* Profile/navigation menu item color */
-  --myuw-menu-color: rgba(0,0,0,0.87);
-}
-
-/* Duplicate :host styles for search to allow polyfills to work */
-myuw-search {
-  display: flex;
-  flex: auto;
-  border: var(--myuw-search-border, none);
-  border-radius: 5px;
-}
-
-/* White theme variables */
-body.uw-madison-white-theme {
-  --myuw-primary-bg: #fff;
-  --myuw-primary-color: #c5050c;
-
-  --myuw-accent-bg: #fff;
-  --myuw-accent-color: #0479a8;
-
-  --myuw-search-border: 1px solid rgba(0,0,0,0.5);
-
-  --myuw-bar-button-bg: #fb686d;
-}
-
-@media (max-width: 600px) {
-  body.uw-madison-white-theme myuw-search {
-    border: none;
+    /* Profile/navigation menu item color */
+    --myuw-menu-color: rgba(0,0,0,0.87);
   }
-}
+
+  /* Duplicate :host styles for search to allow polyfills to work */
+  myuw-search {
+    display: flex;
+    flex: auto;
+    border: var(--myuw-search-border, none);
+    border-radius: 5px;
+  }
+
+  /* White theme variables */
+  body.uw-madison-white-theme {
+    --myuw-primary-bg: #fff;
+    --myuw-primary-color: #c5050c;
+
+    --myuw-accent-bg: #fff;
+    --myuw-accent-color: #0479a8;
+
+    --myuw-search-border: 1px solid rgba(0,0,0,0.5);
+
+    --myuw-bar-button-bg: #fb686d;
+  }
+
+  @media (max-width: 600px) {
+    body.uw-madison-white-theme myuw-search {
+      border: none;
+    }
+  }
+
+  /* Parkside theme variables */
+  body.uw-parkside-theme {
+    --myuw-primary-bg: #026937;
+    --myuw-accent-bg: rgb(114,168,79);
+    --myuw-link-color: #026937;
+  }
+
+  /* Platteville theme variables */
+  body.uw-platteville-theme {
+    --myuw-primary-bg: #076bb3;
+    --myuw-accent-bg: rgb(254,115,17);
+    --myuw-link-color: #076bb3;
+  }
 </style>
