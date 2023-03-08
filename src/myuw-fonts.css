@@ -17,21 +17,21 @@
 
 
 @font-face {
-	font-family: 'Verlag';
+	font-family: 'Roboto';
 	src: url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic&display=swap);
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Verlag';
+	font-family: 'Roboto';
 	src: url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic&display=swap);
 	font-weight: 400;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Verlag';
+	font-family: 'Roboto';
 	src: url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic&display=swap);
 	font-weight: 700;
 	font-style: normal;
