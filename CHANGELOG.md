@@ -1,5 +1,11 @@
 # myuw-app-styles versions
 
+## 1.3.3
+
+### Added
+
+* Added themes for remaining campuses
+
 ## 1.3.2
 
 ### Added
