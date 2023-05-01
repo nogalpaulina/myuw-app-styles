@@ -15,24 +15,16 @@
 	288590-107054-20160617
 */
 
-
 @font-face {
-	font-family: 'Roboto';
-	src: url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic&display=swap);
+	font-family: 'Red Hat Display, sans-serif';
+	src: url(https://cdn.wisc.cloud/fonts/uw-rh/0.0.1/redhat-display-latin.v14.woff2);
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Roboto';
-	src: url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic&display=swap);
-	font-weight: 400;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Roboto';
-	src: url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic&display=swap);
+	font-family: 'Red Hat Text, sans-serif';
+	src: url(https://cdn.wisc.cloud/fonts/uw-rh/0.0.1/redhat-text-latin.v13.woff2);
 	font-weight: 700;
 	font-style: normal;
 }

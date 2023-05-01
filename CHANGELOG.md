@@ -2,6 +2,9 @@
 
 ## 1.3.4
 
+### Changed
+
+* Removed references to Roboto and Arial fonts and replaced with Red Hat Display and Red Hat Text
 * Rename campus themes to match SKIN_PATH defined in uPortal
 
 ## 1.3.3
