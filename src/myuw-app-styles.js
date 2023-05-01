@@ -15,7 +15,7 @@ document.head.appendChild(fonts.content);
 document.head.appendChild(defaultAppTheme.content);
 
 // Set up font observer
-let myuwFontFace = new FontFaceObserver('Roboto', {});
+let myuwFontFace = new FontFaceObserver('Red Hat Display', {});
 
 myuwFontFace.load().then(res => {
     document.body.setAttribute('myuw-font-loaded', true);
