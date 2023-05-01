@@ -1,5 +1,9 @@
 # myuw-app-styles versions
 
+## 1.3.4
+
+* Rename campus themes to match SKIN_PATH defined in uPortal
+
 ## 1.3.3
 
 ### Added
