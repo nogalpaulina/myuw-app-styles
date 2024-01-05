@@ -1,5 +1,11 @@
 # myuw-app-styles versions
 
+## 1.3.5
+
+### Changed
+
+* Update main font usage to Red Hat Text
+
 ## 1.3.4
 
 ### Changed
