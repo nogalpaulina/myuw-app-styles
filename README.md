@@ -1,5 +1,7 @@
 # MyUW App Styles
 
+**`myuw-app-styles` is not currently maintained.**
+
 This HTML import contains custom CSS properties that are consumed by other components in the myuw-web-components space.
 
 ## How to use
